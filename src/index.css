@@ -8,8 +8,8 @@ button{font:inherit;cursor:pointer;border:0;color:inherit}
 .eyebrow{font:700 13px Nunito;letter-spacing:.12em;text-transform:uppercase;color:var(--ind);margin:0 0 8px}.eyebrow.tone{color:#a33b20}.eyebrow.gap{margin-top:24px}.center{text-align:center}
 
 /* nav */
-.navwrap{position:sticky;top:10px;z-index:30;margin:10px 12px;max-width:1100px}
-.nav{padding:10px 14px;border-radius:40px;background:linear-gradient(#fff,#f7f5ff);box-shadow:var(--sh);display:flex;justify-content:space-between;align-items:center}
+.navwrap{position:sticky;top:10px;z-index:30;margin:10px auto;width:calc(100% - 24px);max-width:1100px}
+.nav{padding:10px 14px;border-radius:40px;background:linear-gradient(#fff,#f7f5ff);box-shadow:0 14px 34px rgba(110,90,200,.18),inset 0 2px 0 #fff;display:flex;justify-content:space-between;align-items:center;width:100%}
 .logo{width:50px;height:50px;border-radius:50%;background:var(--ind);color:#fff;font:700 24px Fredoka;box-shadow:0 8px 16px rgba(67,56,202,.3)}
 .pill{background:#f5f3ff;padding:12px 24px;border-radius:30px;font-weight:600;box-shadow:var(--sh)}
 .menu{margin-top:8px;background:#fff;border-radius:34px;box-shadow:var(--sh);padding:18px 14px;display:grid;animation:drop .25s ease}
